@@ -62,13 +62,13 @@ export default function LiveGames() {
         </h1>
       </div>
 
-      <div className="flex gap-4  overflow-x-auto w-full vertical-scroll">
+      <div className="flex gap-4 overflow-x-auto w-full vertical-scroll rounded-lg">
         {sortedAndFilteredGames &&
           sortedAndFilteredGames.map((Game: Games) => (
             <Link
               to={`matches/${Game.id}`}
               key={Game.id}
-              className="flex-shrink-0 bg-white p-3 rounded-md text-black dark:bg-slate-900"
+              className="flex-shrink-0 bg-white p-3 rounded-lg text-black dark:bg-slate-900"
             >
               <div className=" px-3 py-3 bg-white rounded-lg flex-shrink-0 shadow text-sm  border border-black dark:bg-slate-800 dark:text-zinc-50">
                 <div className="text-justify flex gap-4 ">
@@ -85,7 +85,7 @@ export default function LiveGames() {
                         speed={1}
                         color="purple"
                       />
-                      <p className=" bg-green-200 rounded font-semibold px-2 animate-bounce">
+                      <p className=" bg-green-200 rounded font-semibold px-2 animate-pulse">
                         Running
                       </p>
                     </div>

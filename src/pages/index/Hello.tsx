@@ -26,7 +26,7 @@ const Hello: React.FC = () => {
             </p>{" "}
             <a className="font-bold dark:text-white">
               {" "}
-              Welcome to Sports Prime
+              Welcome to Sports Savvy!!!!
             </a>
             <br />
             <div className="flex justify-center">

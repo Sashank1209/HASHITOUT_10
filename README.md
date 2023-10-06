@@ -1,7 +1,7 @@
-# Sports-Prime
+# Sports_Savvy
 An Online Web Application to see and manage sports updates and also customize the content as per your preferences 😁
 ## Hosting-Link
-https://sports-prime.netlify.app/
+[https://sports-savvy.netlify.app/]
 ### Main Features
 - Get current sports updates
 - Customization as per user preferences
